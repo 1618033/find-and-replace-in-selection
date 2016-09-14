@@ -1,6 +1,6 @@
 {CompositeDisposable} = require 'atom'
 
-module.exports = class AutoReplaceInSelection
+module.exports = class FindAndReplaceInSelection
   @subscriptions: null
 
   @activate: (state) ->

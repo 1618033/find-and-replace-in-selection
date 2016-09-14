@@ -2,19 +2,19 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle auto-replace-in-selection'
-      'command': 'auto-replace-in-selection:toggle'
+      'label': 'Toggle find-and-replace-in-selection'
+      'command': 'find-and-replace-in-selection:toggle'
     }
   ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'auto-replace-in-selection'
+      'label': 'find-and-replace-in-selection'
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'auto-replace-in-selection:toggle'
+          'command': 'find-and-replace-in-selection:toggle'
         }
       ]
     ]
