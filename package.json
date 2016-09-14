@@ -1,7 +1,7 @@
 {
   "name": "find-and-replace-in-selection",
   "main": "./lib/find-and-replace-in-selection",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Find and replace in selection depending on whether or not you have selected text when opening the find and replace panel",
   "activationCommands": {
     "atom-workspace": [
@@ -9,6 +9,9 @@
     ]
   },
   "repository": "https://github.com/1618033/find-and-replace-in-selection",
+  "bugs": {
+    "url": "https://github.com/1618033/find-and-replace-in-selection/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
